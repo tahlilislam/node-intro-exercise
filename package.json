@@ -1,0 +1,14 @@
+{
+  "name": "node-intro",
+  "version": "1.0.0",
+  "description": "node intro exercise",
+  "main": "step1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TI",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.3"
+  }
+}

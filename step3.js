@@ -45,10 +45,10 @@ if (process.argv[2] === '--out') {
 }
 
 if (path && path.startsWith('http')) {
-  webCat(path);
+  webCat(path, outToFile);
 } else if (path) {
-    cat(path);
-} 
+    cat(path, outToFile);
+}
 else {
   console.error(
     "Please provide file path or URL as command line argument."
